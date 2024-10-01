@@ -1,0 +1,13 @@
+---
+title: "Sinfunction"
+author: "Kathya"
+date: "2024-10-01"
+output: html_document
+---
+```{r, echo=FALSE}
+x<-c(seq(from=0,to=20,by=0.01))
+y<-c(sin(x))
+sin_df<-data.frame(x,y)
+plot(sin_df)
+##formula \sin^2(x)+cos^2(x)=1\
+```

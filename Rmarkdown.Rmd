@@ -1,0 +1,18 @@
+---
+title: "firstRmarkdown"
+author: "Kathya"
+date: "2024-10-01"
+output: html_document
+---
+
+##notes```-is imp not to be confused, while creating some dataframe set it should be r name,echo/include , is imp
+
+```{r animal_df , include=FALSE}
+animals<-c("Snake","Ostrich","Cat","Spider")
+num_legs<-c(0,2,4,8)
+animals_df<-data.frame(animals,num_legs)
+```
+
+```{r  echo=FALSE}
+print(animals_df)
+```
